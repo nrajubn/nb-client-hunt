@@ -1,0 +1,20 @@
+#location,#device-lat,#device-long,h1{
+    text-align: center;
+    color: #117A65 ;
+    font-weight: bold;
+    font-family: Garamond  ;
+    line-height: 26pt;
+}
+#error-message{
+    text-align: center;
+    color: red ;
+    font-weight: bold;
+    font-family: Garamond  ;
+    line-height: 26pt;
+}	
+main {
+  display: inline;
+  width: 300px;
+  padding: 15px;
+  margin: 20px;
+}
