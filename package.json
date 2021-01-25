@@ -2,10 +2,11 @@
     "name": "nb-client-hunt",
     "version": "1.0.0",
     "description": "client side app",
-    "main": "app.js",
+    "main": "index.html",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
+        "start": "index.html",
+        "test": "echo \"Error: no test specified\" && exit 1"
+      },
     "repository": {
       "type": "git",
       "url": "git+https://github.com/nrajubn/nb-client-hunt.git"
