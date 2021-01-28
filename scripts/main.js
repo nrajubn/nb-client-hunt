@@ -4,14 +4,13 @@
  * @author raju
  */
 
-// first imports.......................
+// first imports
 import locationsArray from '../init-locations.js';
 
-// helper functions....................
+// helper functions
 
 
-// event handlers......................
-
+// event handlers
 
 let locationElement = document.getElementById("location");
 
