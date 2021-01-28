@@ -10,9 +10,9 @@ export default [
      },
 
     {
-      Name: 'Bell tower',
-      Latitude: 41.32622,
-      Longitude: -98.88805,
+      Name: 'Village o aptmnts',
+      Latitude: 40.36093,
+      Longitude: -94.88797,
       North: 41.32622,
       West: -94.70588,
       South: 41.32622,
