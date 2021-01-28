@@ -6,15 +6,15 @@
     "scripts": {
         "start": "index.html",
         "test": "echo \"Error: no test specified\" && exit 1"
-      },
+    },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/nrajubn/nb-client-hunt.git"
+        "type": "git",
+        "url": "git+https://github.com/nrajubn/nb-client-hunt.git"
     },
     "author": "Nooka Raju Boddu",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/nrajubn/nb-client-hunt/issues"
+        "url": "https://github.com/nrajubn/nb-client-hunt/issues"
     },
     "homepage": "https://github.com/nrajubn/nb-client-hunt#readme"
-  }
+}
