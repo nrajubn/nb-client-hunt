@@ -12,20 +12,12 @@ const inside = (device, bounds) => {
   const ans =
     device.latitude > bounds.South &&
     device.latitude < bounds.North &&
-    device.longitude > bounds.West &&
+    device.longitude > bounds.West &&     
     device.longitude < bounds.East;
   // console.log(`CHECKING ${bounds.Name} ANS: ${ans}`);
   return ans;
 };
 
-/**
- * Get the location
- * Uses new import / export - be sure to set type="module" in HTML
- * Can be easily added to any web page.
- * Includes GeoLocation API example.
- * @module location/getLocation
- * @author raju
- */
 export default function getLocation() {
   if (!navigator.geolocation) {
     document.querySelector('#error-message').innerHTML =
@@ -41,7 +33,7 @@ export default function getLocation() {
       (position) => {
         document.querySelector('#device-lat').innerHTML = '';
         document.querySelector('#device-long').innerHTML = '';
-        document.querySelector('#locationAnswer').innerHTML = '?';
+        document.querySelector('#locationAnswer').innerHTML = '';
 
         if (position === undefined) {
           document.querySelector('#error-message').innerHTML =
