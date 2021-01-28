@@ -1,10 +1,3 @@
-/**
- * main.js - the logic for our app
- * Get the location
- * @author raju
- */
-
-// first imports
 import locationsArray from '../init-locations.js';
 
 // helper functions
