@@ -11,8 +11,8 @@ export default [
 
     {
       Name: 'Bell tower',
-      Latitude: 41.32622,
-      Longitude: -98.88805,
+      // Latitude: 41.32622,
+      // Longitude: -98.88805,
       North: 41.32622,
       West: -94.70588,
       South: 41.32622,
