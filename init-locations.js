@@ -19,4 +19,12 @@ export default [
       East: -94.70588,
    
     },
+    {
+              Name: 'Mooyah',
+     
+      North: 40.35287, 
+        West: -98.88805,
+        South: 40.35287, 
+        East: -98.88805,
+    },
 ];
